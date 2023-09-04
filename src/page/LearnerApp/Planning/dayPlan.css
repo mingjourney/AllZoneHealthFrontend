@@ -1,0 +1,83 @@
+.day-plan {
+  font-family: Arial, sans-serif;
+}
+.day-plan .content-wrapper {
+  display: flex;
+}
+
+.day-plan .left-column {
+  flex: 1;
+}
+
+.day-plan .right-column {
+  flex: 1;
+  margin-left: 26px;
+}
+
+.day-plan .next-slot-info {
+  flex: 1;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.day-plan .next-slot-info .label {
+  font-weight: bold;
+}
+
+.day-plan .adjustment-form {
+  flex: 2;
+  margin-top: 16px;
+}
+
+.day-plan h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.day-plan .slogan {
+  font-weight: bold;
+}
+
+.day-plan .timeCard {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.day-plan .activityCard {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-item {
+  padding: 5px 0;
+}
+
+.day-plan .outCard {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 24px;
+}
+.day-plan .timeCard.current {
+  background-color: #dbf5d8;
+}
+
+.day-plan .label {
+  font-weight: bold;
+  margin-left: 10px;
+}

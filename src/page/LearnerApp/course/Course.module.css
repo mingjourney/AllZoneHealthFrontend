@@ -1,0 +1,62 @@
+.categories {
+    margin-right: 24px;
+  }
+  
+  .category-card {
+    width: 134px;
+    height: 30px;
+    margin: 6px;
+    font-size: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+
+  }
+  .category-card :hover{
+    transform: scale(1.05);
+  }
+  .category-card-selected {
+    background-color: #1890ff;
+    color: #ffffff;
+  }
+  .courses {
+    flex: 1;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height: 70vh;
+    overflow: auto;
+  }
+  .course-card {
+    width: 300px;
+    height: 235px;
+    margin: 16px;
+    /* 设置圆角矩形 */
+    border-radius: 10px;
+    /* 鼠标悬停效果 */
+    transition: transform 0.3s ease-in-out;
+  }
+  .course-card:hover {
+    /* 鼠标悬停时放大卡片 */
+    transform: scale(1.01);
+  }
+  .pagination {
+    margin-top: auto;
+    text-align: center;
+  }
+  .pagination {
+    margin-top: 16px;
+    text-align: center;
+  }

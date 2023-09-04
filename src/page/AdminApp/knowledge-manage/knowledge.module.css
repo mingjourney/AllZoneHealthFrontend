@@ -1,0 +1,11 @@
+.hidden {
+    display: none;
+}
+
+.content {
+    padding: 0px 20px;
+}
+
+.formContainer {
+    margin-top: 70px
+}

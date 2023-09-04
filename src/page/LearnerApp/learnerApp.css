@@ -1,0 +1,46 @@
+.site-layout-content {
+    margin-top: 50px;
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+  }
+  
+  .card {
+    height: 100%;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-cover {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .learner-logo{
+    width: 230px;
+    height: 31px;
+    color:#fff;
+    font-size: 19px;
+
+    line-height: 31px;
+    margin: 16px 24px 16px 0;
+    float: left;
+  }
+  .learner-logo img{
+    float: left;
+    width: 33px;
+    margin-right: 9px;
+  }
+  .learner-logo span{
+    float: left;
+  }
+  .ant-layout-footer {
+    background-color: #001529;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 50px;
+  }

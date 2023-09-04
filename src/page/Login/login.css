@@ -1,0 +1,142 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .loginContainer {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .icon--circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 50%;
+    
+  }
+  
+  .hello-word {
+    font-size: 22px;
+    font-weight: 900;
+
+  }
+  
+  .title-words {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    
+  }
+  
+  .formContainer {
+    margin-top: 32px;
+  }
+  
+  .login-form-button {
+    width: 100%;
+  }
+  
+  .login-form-forgot {
+    float: right;
+    color: #333;
+  }
+  
+  .login-form-forgot:hover {
+    color: #5a5af5;
+  }
+  
+  .login-form-button:hover {
+    background-color: #5a5af5;
+    border-color: #5a5af5;
+  }
+  
+  .login-form-button:active,
+  .login-form-button:focus {
+    background-color: #5a5af5;
+    border-color: #5a5af5;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .login-form-button:active {
+    transform: translateY(1px);
+  }
+  
+  .login-form-button:disabled,
+  .login-form-button[disabled] {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  .login-form-forgot,
+  .login-form-button{
+    text-align: center;
+    display: block;
+  }
+  
+  .login-form-forgot:hover,
+  .login-form-button:hover,
+  .login-form-register-link:hover {
+    color: #5a5af5;
+  }
+  
+  .register-line {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .login-form-register-link{
+    color: #b69460;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    margin: 0 0;
+  }
+  
+  .site-form-item-icon {
+    color: rgba(0, 0, 0, 0.25);
+  }
+  
+  .site-checkbox-wrapper {
+    margin-right: 0;
+  }
+  
+  .site-checkbox {
+    margin-right: 8px;
+  }
+  .ant-form-item{
+    margin-bottom: 20px;
+  }
+  .ant-form-item-control-input{
+    min-height: 13px;
+  }
+  @media only screen and (max-width: 576px) {
+    .loginContainer {
+      padding: 20px;
+    }
+  
+    .title-words {
+      font-size: 16px;
+    }
+  }
+  .ant-tabs{
+    margin-top: 10px;
+  }

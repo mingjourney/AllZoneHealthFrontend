@@ -1,0 +1,35 @@
+.user-header {
+  background: #fff;
+  padding: 0 16px;
+}
+
+.health-home {
+  margin-left: 20px;
+  color: #ff4d4f;
+  border: 1px solid #ff4d4f;
+}
+
+.user-header-right {
+  float: right;
+  margin-left: auto;
+}
+
+.user-header-right span {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-header-right a {
+  color: #1890ff;
+  margin-right: 20px;
+}
+
+.user-header-right a:hover {
+  color: #40a9ff;
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: #1890ff;
+  color: #fff;
+}

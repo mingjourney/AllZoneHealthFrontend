@@ -1,0 +1,41 @@
+.week-plan-content {
+    font-family: Arial, sans-serif;
+}
+
+.week-plan-table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+.week-plan-table .ant-table-thead>tr>th {
+    background-color: #f0f2f5;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.week-plan-table .ant-table-tbody>tr.even-row>td {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.week-plan-table .ant-table-tbody>tr.odd-row>td {
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.week-plan-table .ant-table-tbody>tr>td {
+    text-align: center;
+}
+
+.calories-cell {
+    font-weight: bold;
+    color: #ff4d4f;
+}
+
+.calories-cell.positive {
+    color: #52c41a;
+}
+.week-plan-table .ant-table-tbody>tr:hover>td {
+    background-color: #f5f5f5;
+}

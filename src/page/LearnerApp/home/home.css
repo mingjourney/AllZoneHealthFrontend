@@ -1,0 +1,26 @@
+.site-layout-content {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.card-list {
+    margin-top: 16px;
+}
+
+/* 为Card组件添加一些样式 */
+.ant-card {
+    transition: all 0.3s;
+}
+
+/* 为Card组件添加hover效果 */
+.card-list .ant-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px);
+}
+
+
+@media screen and (max-width: 576px) {
+    .ant-card {
+        margin-bottom: 16px;
+    }
+}

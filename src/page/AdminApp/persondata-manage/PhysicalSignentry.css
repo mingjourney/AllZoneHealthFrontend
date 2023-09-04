@@ -1,0 +1,50 @@
+.sport-card {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: 0.3s;
+
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  position: relative;
+}
+
+.sport-card:hover {
+  border: 1px solid #d9d9d9;
+}
+
+.sport-card.selected,
+.sport-card.focused {
+  color: #fff;
+  width: 120px;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+.sport-card input {
+  position: absolute;
+  right: -100%;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.3s;
+  width: 60px;
+  height: 100%;
+  pointer-events: none;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.sport-card.selected input,
+.sport-card.focused input {
+  opacity: 1;
+  right: 8px;
+  pointer-events: auto;
+}

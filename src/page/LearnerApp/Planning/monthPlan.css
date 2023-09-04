@@ -1,0 +1,26 @@
+.month-plan {
+  font-family: Arial, sans-serif;
+  padding:20px;
+}
+
+.month-plan h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.events {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.events li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.events li .ant-badge-status-dot {
+  margin-right: 8px;
+}
