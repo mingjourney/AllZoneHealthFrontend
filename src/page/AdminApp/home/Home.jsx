@@ -8,7 +8,7 @@ from '@ant-design/icons';
 import { submitWeight } from '../../../api/auth/submitWeight';
 import { handleApiResponse } from '../../../utils/apiHelpers';
 import { getRecentWeight } from '../../../api/auth/getRecentWeight';
-import styles from './Home.module.css';
+import styles from './home.module.css';
 
 const Home = () => {
   const [weightData, setWeightData] = useState([]);
